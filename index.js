@@ -63,7 +63,7 @@ bot.on('text', async (ctx) => {
     const resourceCount = dataFromServer[resourceKey];
     ctx.reply(`${resourceDisplayName}: ${resourceCount}`);
   } else {
-    ctx.reply('Ресурс не найден.');
+    ctx.reply('Ресурс не знайдено.');
   }
 });
 
